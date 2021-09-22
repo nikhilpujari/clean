@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6FEFF7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorRed">#8e0303</color>
+    <color name="textColor">#ffffff</color>
+    <color name="colorButtonBg">#39C0B4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="ash">#DEDEDE</color>
+    <color name="deep_ash">#636262</color>
+    <color name="ash_ash">#7f7e7e</color>
+    <color name="background">#458E92</color>
+    <color name="colorToolBar">#128c7e</color>
+    <color name="hintTextColor">#80ffffff</color>
+</resources>

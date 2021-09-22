@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aniksarder.keepclean">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_png"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+
+        <activity android:name=".SpalshScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".UserActivity.LoginActivity" />
+        <activity android:name=".UserActivity.RegistrationActivity" />
+        <activity android:name=".UserActivity.ProfileSetupActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".PostActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".UserList.UserListActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".UserCommnects.CommentsActivity"
+            android:parentActivityName=".HomeActivity" />
+
+        <activity android:name=".PasswordActivity"
+            android:parentActivityName=".HomeActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.aniksarder.keepclean.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Welcome to Keep Celan"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="25dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Above all this material of this application for the city life if Bangladeshi people. Keep Clean App are the first Android app, this application users increasing once upon a time our city will be a good city life as western culture environments. Clean road, pure oxygen as per as fully change our city if people's conscious and work together. "
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:src="@drawable/home"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/TextViewRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/botton_registration"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_transparent"
+            android:backgroundTint="@color/colorRed"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/TextViewSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/botton_Log_In"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_transparent"
+            android:backgroundTint="@color/colorRed"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

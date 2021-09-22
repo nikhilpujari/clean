@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517411376985",
+    "firebase_url": "https://keep-clean-da97a.firebaseio.com",
+    "project_id": "keep-clean-da97a",
+    "storage_bucket": "keep-clean-da97a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517411376985:android:83190b7bf2b351b2",
+        "android_client_info": {
+          "package_name": "com.example.aniksarder.keepclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517411376985-0ca6b8giei74krehcv1s0hosejdhulte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aniksarder.keepclean",
+            "certificate_hash": "a8ae90eb12146d0558bea158b038a9ea4c003714"
+          }
+        },
+        {
+          "client_id": "517411376985-lp0prqiqrisi4k9vpq2mkotpvrpqgf39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvIhxNPPQjw_9ocExQS6BX6E3V-vrb7oo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517411376985-lp0prqiqrisi4k9vpq2mkotpvrpqgf39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

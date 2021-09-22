@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ash"
+    tools:context=".PostActivity">
+
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="@color/colorToolBar"
+            android:elevation="4dp"
+            android:id="@+id/postToolBar"
+            />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/postToolBar"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/selectPostImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_middel"
+                android:scaleType="centerCrop"
+                android:padding="5dp"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+            <EditText
+                android:id="@+id/descPostField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_outline"
+                android:padding="15dp"
+                android:hint="briefly description ......"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="15dp"
+                android:textColorHint="@color/deep_ash" />
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@drawable/input_outline"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+                <ImageView
+                    android:id="@+id/postPlaceIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:src="@drawable/add_ic_action_location"/>
+                <TextView
+                    android:id="@+id/postPlaceName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:hint="select your location"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/deep_ash"/>
+                <TextView
+                    android:id="@+id/postPlaceAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/submitBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/colorRed"
+                    android:background="@drawable/rounded_button_transparent"
+                    android:text="Submit Post"
+                    />
+
+            </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

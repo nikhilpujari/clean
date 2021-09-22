@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Keep Clean</string>
+    <string name="api_key">AIzaSyDvuYcgkMoAm7uB-uNBBgi26Z6ARpYOMVk</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Password</string>
+    <string name="botton_registration">Registration</string>
+    <string name="botton_Log_In">LogIn</string>
+    <string name="botton_About">About</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+
+    <string name="text_member">Already have an account ? </string>
+    <string name="botton_Login">Login</string>
+    <string name="botton_forgot_password">Forgot your password ?</string>
+    <string name="botton_sign_up">Sign up now</string>
+
+    <string name="about">Above all this material of this application for the city life if Bangladeshi people.Users will have been motivated after using an application. Keep Clean App are the first Android app,this application users increasing once upon a time our city will be a good city life as western culture environments. Clean road, pure oxygen as per as fully change our city if people's conscious and work together.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
